@@ -6,6 +6,16 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
+/**
+ * Represents a single record of Nifty data with attributes like date, price, open, high, and low.
+ * Acts as a data transfer object (DTO) for Nifty records.
+ * 
+ * This class is typically populated from CSV input.
+ * 
+ * @author Jayjit Mandal
+ * @version 1.0
+ * @since 2025-04-30
+ */
 @Getter
 @Setter
 @AllArgsConstructor

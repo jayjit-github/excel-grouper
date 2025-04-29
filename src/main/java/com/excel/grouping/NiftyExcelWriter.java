@@ -8,6 +8,16 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Writes weekly and monthly grouped Nifty data to separate sheets in an Excel (.xlsx) file.
+ * Uses Apache POI for Excel file generation.
+ *
+ * Weekly and monthly groups are expected as maps of group labels to lists of {@link NiftyRecord}.
+ * 
+ * @author Jayjit Mandal
+ * @version 1.0
+ * @since 2025-04-30
+ */
 public class NiftyExcelWriter {
 
     // Method to write weekly and monthly data into separate sheets

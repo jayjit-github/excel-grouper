@@ -7,6 +7,11 @@ import java.io.FileOutputStream;
 import java.util.List;
 import java.util.Map;
 
+/** 
+* @author Jayjit Mandal
+* @version 1.0
+* @since 2025-04-30
+*/
 public class ExcelUtils {
 
     public static void writeWeeklyAndMonthlyToOneFile(String outputFilePath,

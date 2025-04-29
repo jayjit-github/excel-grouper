@@ -5,6 +5,14 @@ import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Groups Nifty records into weekly and monthly buckets based on custom logic.
+ * Weekly grouping targets Wednesdays, and monthly grouping targets mid-month (15th or next available date).
+ *
+ * @author Jayjit Mandal
+ * @version 1.0
+ * @since 2025-04-30
+ */
 public class NiftyDataGrouper {
 
     private final List<NiftyRecord> records;

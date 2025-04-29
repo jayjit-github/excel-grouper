@@ -7,6 +7,20 @@ import java.util.Map;
 
 import com.opencsv.exceptions.CsvValidationException;
 
+
+/**
+ * Entry point of the Nifty Excel Grouper application.
+ * Accepts a CSV file path as a command-line argument and writes grouped data to Excel.
+ * 
+ * This class orchestrates file reading, grouping, and writing to output Excel.
+ *
+ * Usage:
+ * java -jar excel-grouping-1.0.jar history-data.csv
+ * 
+ * @author Jayjit Mandal
+ * @version 1.0
+ * @since 2025-04-30
+ */
 public class NiftyGroupingMain {
 
     public static void main(String[] args) throws Exception, NumberFormatException {

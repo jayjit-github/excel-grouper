@@ -10,6 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+/** 
+* @author Jayjit Mandal
+* @version 1.0
+* @since 2025-04-30
+*/
 public class CSVUtils {
     public static List<NiftyRecord> readCSV(String filePath) {
         List<NiftyRecord> records = new ArrayList<>();

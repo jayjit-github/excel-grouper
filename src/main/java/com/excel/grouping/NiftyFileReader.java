@@ -10,6 +10,16 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
+/** 
+* Reads a CSV file and parses it into a list of {@link NiftyRecord} instances using OpenCSV.
+* Assumes the file contains header row followed by valid data rows.
+*
+* Handles parsing exceptions and file reading logic.
+* 
+* @author Jayjit Mandal
+* @version 1.0
+* @since 2025-04-30
+*/
 public class NiftyFileReader {
 
     public static List<NiftyRecord> read(String filePath) throws CsvValidationException, NumberFormatException {
